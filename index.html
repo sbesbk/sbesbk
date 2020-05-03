@@ -5,6 +5,8 @@
 <script src="https://cdnjs.loli.net/ajax/libs/mdui/0.4.3/js/mdui.min.js"></script>
 <script src="https://cdn.bootcdn.net/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
 <link href="https://cdn.bootcdn.net/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+<script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
 <style>
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic);
 body{font-family:"Segoe UI Light","微软雅黑 Light",微软雅黑,"Source Sans Pro";}.f-center{font-align:center;}
@@ -39,6 +41,23 @@ body{font-family:"Segoe UI Light","微软雅黑 Light",微软雅黑,"Source Sans
 <p>赖正卿，<strong>前恶俗维基管理员，恶俗百科管理员</strong>，辽宁人，Twitter号和Telegram号均为@LiaoPoi，常用ID：LiaoPoi、辽无铭、Lai Chengching、<a href="https://tieba.baidu.com/home/main/?un=%E5%93%88%E5%93%88%E5%93%88%E5%93%88%E5%8B%BA%E5%AD%90%E5%90%9B" rel="nofollow">哈哈哈哈勺子君</a>、<del><a href="https://space.bilibili.com/93399045">WhitebombLiaopoi</a></del>（已被封禁）、叫我辽无铭（微博）、辽镇长 LiaoPoi。</p>
 <p>生日：1994年1月8日</p>
 <p>sfz：21128219940108****（隐去后4位）</p>
+<h1>留言板</h1>
+<div id="gitalk-container"></div>
+
+<script type="text/javascript">
+ var gitalk = new Gitalk({
+   // gitalk的主要参数
+    clientID: '7c4be045063080131504',
+    clientSecret: '4b61bc7e45bb4bc3346c250caddf76af5fdef65b',
+    repo: 'esudog.gq',
+    owner: 'Skystars-NH',
+    admin: ['Skystars-NH'],
+    id: 'esudog.gq',
+    //其他参数
+    distractionFreeMode: false // 全屏遮罩,jia
+  });
+  gitalk.render('gitalk-container');
+</script>
 </center>
 </blockquote>
 </body>
